@@ -32,10 +32,15 @@ button {
     font-size: 18px;
 }
 
-.header {
+.header, .footer {
     background-color: #1f2937;
     color: #ffffff;
     padding: 0 224px;
+}
+
+.footer {
+    text-align: center;
+    padding: 2em;
 }
 
 .header-row, .header-content {
