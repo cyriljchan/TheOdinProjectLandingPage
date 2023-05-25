@@ -127,11 +127,33 @@ button {
 .quote .text {
     color: #1f2937;
     font-size: 36px;
-    font-weight: 100;
+    font-weight: lighter;
     font-style: italic;
 }
 
 .quote .person {
     align-self: flex-end;
     font-weight: 1000;
+}
+
+.blue-window {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 3em 8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action .left {
+    flex: 1;
+}
+
+.action .title {
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+.action button {
+    border-color: #ffffff;
 }
