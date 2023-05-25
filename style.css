@@ -35,7 +35,7 @@ button {
 .header, .footer {
     background-color: #1f2937;
     color: #ffffff;
-    padding: 0 224px;
+    padding: 0 12em;
 }
 
 .footer {
@@ -74,4 +74,49 @@ button {
     background-color: #6D747D;
     justify-content: center;
     align-items: center;
+}
+
+.information, .quote, .action {
+    display: flex;
+    flex-direction: column;
+    padding: 5em 12em;
+}
+
+.information {
+    gap: 40px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.information .title {
+    text-align: center;
+    color: #1f2937;
+    font-weight: 1000;
+    font-size: 36px;
+}
+
+.information .info-cards {
+    padding: 0 5em;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.information .card {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
+
+.square {
+    width: 12em;
+    height: 12em;
+    border: 3px ridge #3882f6;
+    border-radius: 1em;
 }
