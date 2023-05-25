@@ -87,7 +87,10 @@ button {
 }
 
 .quote {
+    gap: 8px;
     background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 5em 18em;
 }
 
 .information .title {
@@ -114,9 +117,21 @@ button {
     text-align: center;
 }
 
-.square {
+.information .square {
     width: 12em;
     height: 12em;
     border: 3px ridge #3882f6;
     border-radius: 1em;
+}
+
+.quote .text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote .person {
+    align-self: flex-end;
+    font-weight: 1000;
 }
